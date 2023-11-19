@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+.top{
+    background-image: url(img/Rectangle\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1024px;
+    &__title{
+        padding-top: 217px;
+        margin-bottom: 32px;
+        font-size: 64px;
+        color: rgba(255, 255, 255, 1);
+        max-width: 760px;
+        font-weight: 700;
+    }
+    &__text{
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        max-width: 480px;
+        margin-bottom: 44px;
+        &_active{
+            color: #FFF;
+            font-size: 18px;
+            font-weight: 700;
+        }
+    }
+    &__button{
+        border-radius: 30px;
+        background: #9C0332;
+        width: 234px;
+        height: 48px;
+        flex-shrink: 0;
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.content{
+    display: flex;
+    gap: 32px;
+    background-image: url(img/Rectangle\ 2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 556px;
+    padding-top: 128px;
+    &__game1{
+        background-image: url(img/game1.svg);
+        background-repeat: no-repeat;
+        height: 300px;
+        width: 379px;
+    }
+    &__title{
+        color: #FFF;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px;
+        box-sizing: border-box;
+        padding-bottom: 32px;
+        padding-left: 32px;
+        display: flex;
+        align-items: flex-end;
+    }
+    &__game2{
+        background-image: url(img/game2.svg);
+        background-repeat: no-repeat;
+        height: 300px;
+        width: 379px;
+    }
+    &__game3{
+        background-image: url(img/game3.svg);
+        background-repeat: no-repeat;
+        height: 300px;
+        width: 379px;
+
+    }
+
+}
