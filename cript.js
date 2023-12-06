@@ -4,7 +4,7 @@ alert(a);
 a = 20;
 alert(a);
 
-// задание 2
+// задание 2\
 const IphoneReleaseYear = 2007;
 alert(IphoneReleaseYear);
 
