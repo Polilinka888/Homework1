@@ -58,14 +58,13 @@ body {
 }
 
 .content {
-  display: flex;
-  gap: 32px;
   background-image: url(img/Rectangle\ 2.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 556px;
-  padding-top: 128px;
+  display: flex;
+  gap: 32px;
 }
 .content__game1 {
   background-image: url(img/game1.svg);
@@ -96,4 +95,181 @@ body {
   background-repeat: no-repeat;
   height: 300px;
   width: 379px;
+}
+
+.section {
+  background-image: url(img/section.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  align-items: center;
+  display: flex;
+  gap: 135px;
+}
+.section__title {
+  color: #FFF;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 32px;
+}
+.section__text {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  margin-bottom: 32px;
+  max-width: 584px;
+}
+.section__button {
+  border-radius: 30px;
+  background: #9C0332;
+  width: 234px;
+  height: 48px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.section__logo {
+  height: 333px;
+  width: 485px;
+}
+
+.menu {
+  background-image: url(img/section.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  align-items: center;
+  display: flex;
+  gap: 135px;
+}
+.menu__title {
+  color: #FFF;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 32px;
+}
+.menu__text {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  margin-bottom: 32px;
+  max-width: 584px;
+}
+.menu__button {
+  border-radius: 30px;
+  background: #9C0332;
+  width: 234px;
+  height: 48px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.menu__logo {
+  height: 333px;
+  width: 485px;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  .top {
+    display: flex;
+    gap: 33px;
+    align-items: center;
+    height: 735px;
+  }
+  .top__title {
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    max-width: 340px;
+    padding-top: 238px;
+  }
+  .top__text {
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+  }
+  .top__text_active {
+    font-size: 14px;
+    font-style: normal;
+  }
+  .content {
+    height: 1221px;
+    gap: 33px;
+  }
+  .content__game1 {
+    background-image: none;
+    background-image: url(img/mobail_game1.svg);
+  }
+  .content__game2 {
+    background-image: none;
+    background-image: url(img/mobail_game2.svg);
+  }
+  .content__game3 {
+    background-image: none;
+    background-image: url(img/mobail_game3.svg);
+  }
+  .section {
+    display: flex;
+    gap: 33px;
+    align-items: center;
+    height: 653px;
+    padding-top: 51px;
+  }
+  .section__title {
+    font-size: 32px;
+    font-style: normal;
+    text-align: center;
+  }
+  .section__text {
+    font-size: 14px;
+    text-align: center;
+    font-style: normal;
+  }
+  .section__logo {
+    gap: 64px;
+    width: 344px;
+    height: 236px;
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+    height: 653px;
+    gap: 33px;
+    flex-direction: column-reverse;
+    padding-top: 51px;
+  }
+  .menu__title {
+    font-size: 32px;
+    font-style: normal;
+    text-align: center;
+  }
+  .menu__text {
+    font-size: 14px;
+    text-align: center;
+    font-style: normal;
+  }
+  .menu__logo {
+    width: 344px;
+    height: 236px;
+  }
 }/*# sourceMappingURL=style.css.map */
