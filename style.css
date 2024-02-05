@@ -21,6 +21,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  min-width: none;
   height: 1024px;
 }
 .top__title {
@@ -134,6 +135,12 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.section__button::-moz-placeholder {
+  color: white;
+}
+.section__button::placeholder {
+  color: white;
 }
 .section__logo {
   height: 333px;
