@@ -87,7 +87,7 @@
 //function getSquaredNumbers(numbs) {
 //    return numbs.map((num) => num * num);
 //}
-//
+
 //getSquaredNumbers(numbs);
 
 
