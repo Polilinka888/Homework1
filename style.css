@@ -136,7 +136,7 @@ body {
 .section__button {
   border-radius: 30px;
   background: #9C0332;
-  width: 234px;
+  width: 234px; 
   height: 48px;
   flex-shrink: 0;
   color: #FFF;

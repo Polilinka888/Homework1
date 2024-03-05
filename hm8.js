@@ -73,5 +73,6 @@
 //    console.log(`Привет, ${name}!`);
 //}
 
-
+//
 //delayForSecond(() => sayHi('Глеб'))
+//
