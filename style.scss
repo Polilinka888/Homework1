@@ -56,13 +56,14 @@ body{
 }
 
 .content{
+    display: flex;
+    gap: 32px;
     background-image: url(img/Rectangle\ 2.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 556px;
-    display: flex;
-    gap: 32px;
+    padding-top: 128px;
     &__game1{
         background-image: url(img/game1.svg);
         background-repeat: no-repeat;
@@ -95,6 +96,7 @@ body{
         background-repeat: no-repeat;
         height: 300px;
         width: 379px;
+
     }
 }
 .section{
@@ -188,6 +190,3 @@ body{
             width: 485px;
         }
     }
-    
-
-@import 'mobile';
