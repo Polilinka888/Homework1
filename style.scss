@@ -60,7 +60,8 @@ body {
         font-weight: 400;
         line-height: normal;
         &:hover{
-            background: #000;
+            transform: scale(0.9);
+            background: rgb(68, 2, 2) ;
         }
     }
 }
@@ -156,8 +157,9 @@ body {
         font-weight: 400;
         line-height: normal;
 
-        ::placeholder {
-            color: darkred;
+        &:hover{
+            transform: scale(0.9);
+            background: rgb(68, 2, 2) ;
         }
     }
     &__logo {
@@ -208,8 +210,9 @@ body {
         font-weight: 400;
         line-height: normal;
 
-        ::placeholder {
-            color: darkred;
+        &:hover{
+            transform: scale(0.9);
+            background: rgb(68, 2, 2) ;
         }
     }
 
