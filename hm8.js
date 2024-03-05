@@ -7,7 +7,7 @@
 // ];
 // people.sort((a, b) => a.age - b.age)
 // console.log(people)
-//
+
 
 ////Задание 2
 //function isPositive(number) {
