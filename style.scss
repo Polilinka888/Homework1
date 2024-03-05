@@ -6,21 +6,25 @@
 a {
     text-decoration: none;
 }
-body{
+
+body {
     font-family: 'Montserrat', sans-serif;
 }
+
 .center {
     padding-left: calc(50% - 600px);
     padding-right: calc(50% - 600px);
 }
-.top{
+
+.top {
     background-image: url(img/Rectangle\ 1.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     min-width: none;
     height: 1024px;
-    &__title{
+
+    &__title {
         padding-top: 217px;
         margin-bottom: 32px;
         font-size: 64px;
@@ -28,20 +32,23 @@ body{
         max-width: 760px;
         font-weight: 700;
     }
-    &__text{
+
+    &__text {
         color: #FFF;
         font-size: 18px;
         font-style: normal;
         font-weight: 300;
         max-width: 480px;
         margin-bottom: 44px;
-        &_active{
+
+        &_active {
             color: #FFF;
             font-size: 18px;
             font-weight: 700;
         }
     }
-    &__button{
+
+    &__button {
         border-radius: 30px;
         background: #9C0332;
         width: 234px;
@@ -52,10 +59,13 @@ body{
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        &:hover{
+            background: #000;
+        }
     }
 }
 
-.content{
+.content {
     background-image: url(img/Rectangle\ 2.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,13 +73,15 @@ body{
     height: 556px;
     display: flex;
     gap: 32px;
-    &__game1{
+
+    &__game1 {
         background-image: url(img/game1.svg);
         background-repeat: no-repeat;
         height: 300px;
         width: 379px;
     }
-    &__title{
+
+    &__title {
         color: #FFF;
         font-size: 24px;
         font-style: normal;
@@ -80,24 +92,28 @@ body{
         padding-left: 32px;
         display: flex;
         align-items: flex-end;
-        :hover{
+
+        :hover {
             transform: scale(0.5px);
         }
     }
-    &__game2{
+
+    &__game2 {
         background-image: url(img/game2.svg);
         background-repeat: no-repeat;
         height: 300px;
         width: 379px;
     }
-    &__game3{
+
+    &__game3 {
         background-image: url(img/game3.svg);
         background-repeat: no-repeat;
         height: 300px;
         width: 379px;
     }
 }
-.section{
+
+.section {
     background-image: url(img/section.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -106,14 +122,16 @@ body{
     align-items: center;
     display: flex;
     gap: 135px;
-    &__title{
+
+    &__title {
         color: #FFF;
         font-size: 48px;
         font-weight: 700;
         line-height: normal;
         margin-bottom: 32px;
     }
-    &__text{
+
+    &__text {
         color: #FFF;
         font-size: 18px;
         font-style: normal;
@@ -122,7 +140,8 @@ body{
         margin-bottom: 32px;
         max-width: 584px;
     }
-    &__button{
+
+    &__button {
         border-radius: 30px;
         background: #9C0332;
         width: 234px;
@@ -133,61 +152,70 @@ body{
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        ::placeholder{
+
+        ::placeholder {
             color: darkred;
         }
-        }
     }
-    &__logo{
+    &__logo {
         height: 333px;
         width: 485px;
     }
+}
 
-    .menu{
-        background-image: url(img/section.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 800px;
-        align-items: center;
-        display: flex;
-        gap: 135px;
-        &__title{
-            color: #FFF;
-            font-size: 48px;
-            font-weight: 700;
-            line-height: normal;
-            margin-bottom: 32px;
-        }
-        &__text{
-            color: #FFF;
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 300;
-            line-height: 32px;
-            margin-bottom: 32px;
-            max-width: 584px;
-        }
-        &__button{
-            border-radius: 30px;
-            background: #9C0332;
-            width: 234px;
-            height: 48px;
-            flex-shrink: 0;
-            color: #FFF;
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-            ::placeholder{
-                color: darkred;
-            }
-        }
-        &__logo{
-            height: 333px;
-            width: 485px;
+
+
+.menu {
+    background-image: url(img/section.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    align-items: center;
+    display: flex;
+    gap: 135px;
+
+    &__title {
+        color: #FFF;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 32px;
+    }
+
+    &__text {
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px;
+        margin-bottom: 32px;
+        max-width: 584px;
+    }
+
+    &__button {
+        border-radius: 30px;
+        background: #9C0332;
+        width: 234px;
+        height: 48px;
+        flex-shrink: 0;
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        ::placeholder {
+            color: darkred;
         }
     }
-    
+
+    &__logo {
+        height: 333px;
+        width: 485px;
+    }
+}
+
+
 
 @import 'mobile';

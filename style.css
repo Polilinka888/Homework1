@@ -57,6 +57,9 @@ body {
   font-weight: 400;
   line-height: normal;
 }
+.top__button:hover {
+  background: #000;
+}
 
 .content {
   background-image: url(img/Rectangle\ 2.svg);
@@ -84,6 +87,9 @@ body {
   padding-left: 32px;
   display: flex;
   align-items: flex-end;
+}
+.content__title :hover {
+  transform: scale(0.5px);
 }
 .content__game2 {
   background-image: url(img/game2.svg);
@@ -136,11 +142,11 @@ body {
   font-weight: 400;
   line-height: normal;
 }
-.section__button::-moz-placeholder {
-  color: white;
+.section__button ::-moz-placeholder {
+  color: darkred;
 }
-.section__button::placeholder {
-  color: white;
+.section__button ::placeholder {
+  color: darkred;
 }
 .section__logo {
   height: 333px;
@@ -185,6 +191,12 @@ body {
   font-weight: 400;
   line-height: normal;
 }
+.menu__button ::-moz-placeholder {
+  color: darkred;
+}
+.menu__button ::placeholder {
+  color: darkred;
+}
 .menu__logo {
   height: 333px;
   width: 485px;
@@ -224,14 +236,17 @@ body {
     gap: 33px;
   }
   .content__game1 {
+    width: 340px;
     background-image: none;
     background-image: url(img/mobail_game1.svg);
   }
   .content__game2 {
     background-image: none;
+    width: 340px;
     background-image: url(img/mobail_game2.svg);
   }
   .content__game3 {
+    width: 340px;
     background-image: none;
     background-image: url(img/mobail_game3.svg);
   }

@@ -31,14 +31,17 @@
         height: 1221px;
         gap: 33px;
            &__game1{
+            width: 340px;
             background-image:none;
             background-image: url(img/mobail_game1.svg);
         }
         &__game2{
             background-image:none;
+            width: 340px;
             background-image: url(img/mobail_game2.svg);
         }
         &__game3{
+            width: 340px;
             background-image:none;
             background-image: url(img/mobail_game3.svg);
         }
