@@ -58,7 +58,8 @@ body {
   line-height: normal;
 }
 .top__button:hover {
-  background: #000;
+  transform: scale(0.9);
+  background: rgb(68, 2, 2);
 }
 
 .content {
@@ -136,7 +137,7 @@ body {
 .section__button {
   border-radius: 30px;
   background: #9C0332;
-  width: 234px; 
+  width: 234px;
   height: 48px;
   flex-shrink: 0;
   color: #FFF;
@@ -145,11 +146,9 @@ body {
   font-weight: 400;
   line-height: normal;
 }
-.section__button ::-moz-placeholder {
-  color: darkred;
-}
-.section__button ::placeholder {
-  color: darkred;
+.section__button:hover {
+  transform: scale(0.9);
+  background: rgb(68, 2, 2);
 }
 .section__logo {
   height: 333px;
@@ -194,11 +193,9 @@ body {
   font-weight: 400;
   line-height: normal;
 }
-.menu__button ::-moz-placeholder {
-  color: darkred;
-}
-.menu__button ::placeholder {
-  color: darkred;
+.menu__button:hover {
+  transform: scale(0.9);
+  background: rgb(68, 2, 2);
 }
 .menu__logo {
   height: 333px;
