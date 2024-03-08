@@ -103,6 +103,6 @@
 //    } else {
 //        return "Неизвестное значение"
 //    }
-///}
+//}
 
 //console.log(getSeason(prompt("Введите число:")));
