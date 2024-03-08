@@ -2,8 +2,8 @@
 //const numbs = [1, 5, 4, 10, 0, 3];
 
 //for (let i = 0; i < numbs.length; i++) {
-//    if (numbs [i] == 0) break;
 //    console.log (numbs [i]);
+//    if (numbs [i] === 0) break;
 //}
 
 
@@ -76,7 +76,7 @@
 
 ////Задание 10
 //const numbs = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-//for (let i = 0; i < numbs.lengthm - 1; i++){
+//for (let i = 0; i < numbs.lenght - 1; i++){
 //     console.log(numbs[i] + numbs[i+1]);
 //}
 
@@ -93,10 +93,12 @@
 
 ////Задание 12
 //const getLengthWords = ['слово', '', 'слог', 'длинное предложение', 'буква'];
-//const result = getLengthWords.map((item) => {
-//    return item.length
-//});
-//console.log(result);
+//
+//function getLengthWords(item) {
+//    return item.map((item) => item.lenght);
+//}
+
+//getLengthWords(item);
 
 
 ////Задание 13
