@@ -67,23 +67,22 @@
 
 
 ////Задание 11
-const game2 = () => {
-    let fruits = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+//const game2 = () => {
+//    let fruits = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
 
-    fruits = fruits.sort(() => Math.random() - 0.5);
-    alert(fruits);
+//    fruits = fruits.sort(() => Math.random() - 0.5);
+//    alert(fruits);
 
-    let firstGuess = prompt("Чему равнялся первый элемент массива?");
-    let lastGuess = prompt("Чему равнялся послдений элемент массива?");
+//    let firstGuess = prompt("Чему равнялся первый элемент массива?");
+//    let lastGuess = prompt("Чему равнялся послдений элемент массива?");
 
-    if (firstGuess === fruits[0] && lastGuess === fruits[fruits.length - 1]) {
-        alert ("Поздравляем! Вы угадали оба слова!!!");
-    }
-    else if (firstGuess === fruits[0] || lastGuess === fruits[fruits.length - 1]) {
-        alert ("вы были близки к победе!");
-    }
-    else {
-        alert ("Вы не угадали ни одного слова(");
-    }
-
-}
+//    if (firstGuess === fruits[0] && lastGuess === fruits[fruits.length - 1]) {
+//        alert ("Поздравляем! Вы угадали оба слова!!!");
+//    }
+//    else if (firstGuess === fruits[0] || lastGuess === fruits[fruits.length - 1]) {
+//        alert ("вы были близки к победе!");
+//    }
+//    else {
+//        alert ("Вы не угадали ни одного слова(");
+//    }
+//}
