@@ -1,30 +1,18 @@
 const game1 = () => {
-    let month = Number('Введите номер месяца');
-
-    if (Number.isNaN(month) || month < 1 || month > 12) {
-        return 'Вы ввели неправильное значение';
-    }
+    let month = prompt('Введите номер месяца');
     
-    switch (month) {
-        case 12:
-        case 1:
-        case 2:
-            return 'Зима';
-        case 3:
-        case 4:
-        case 5:
-            return 'Весна';
-        case 6:
-        case 7:
-        case 8:
-            return 'Лето';
-        case 9:
-        case 10:
-        case 11:
-            return 'Осень';
-        default:
-            return 'Вы ввели неправильное значение';
-    }
+        if (month === 12 || month === 1 || month === 2){
+            alert ('Зима');
+        } else if (month >= 3 && month <= 5) {
+            alert ('Весна');
+        } else if ( month >= 6 && month <= 8) {
+            alert ('Лето');
+        } else if ( month >= 9 && month <= 11) {
+            alert ('Осень');
+        } else {
+            alert ('Неизвестное значение');
+        }
+      
 }
 
 
