@@ -3,7 +3,7 @@
 
 //for (let i = 0; i < numbs.length; i++) {
 //    console.log (numbs [i]);
-//    if (numbs [i] === 0) break;
+//    if (numbs [i] === 10) break;
 //}
 
 
@@ -76,7 +76,7 @@
 
 ////Задание 10
 //const numbs = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-//for (let i = 0; i < numbs.lenght - 1; i++){
+//for (let i = 0; i < numbs.length - 1; i++){
 //     console.log(numbs[i] + numbs[i+1]);
 //}
 
@@ -92,13 +92,13 @@
 
 
 ////Задание 12
-//const getLengthWords = ['слово', '', 'слог', 'длинное предложение', 'буква'];
-//
-//function getLengthWords(item) {
-//    return item.map((item) => item.lenght);
+//const words = ['слово', '', 'слог', 'длинное предложение', 'буква'];
+
+//function getLengthWords(words) {
+//    return words.map((word) => word.length);
 //}
 
-//getLengthWords(item);
+//getLengthWords(words);
 
 
 ////Задание 13
@@ -112,25 +112,5 @@
 //    return result;
 //}
 
-let month = prompt('Введите номер месяца');
+//let month = prompt('Введите номер месяца');
 
-switch (month) {
-    case 12:
-    case 1:
-    case 2:
-        alert ('Зима');
-    case 3:
-    case 4:
-    case 5:
-        alert ('Весна');
-    case 6:
-    case 7:
-    case 8:
-        alert ('Лето');
-    case 9:
-    case 10:
-    case 11:
-        alert ('Осень');
-    default:
-        alert ('Вы ввели неправильное значение');
-}
